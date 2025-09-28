@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Acciones de íconos
   const actions = {
     location: () => alert("Ubicación: Rosario, Santa Fe, Argentina"),
-    phone: () => window.open("tel:+5493412420807"),
+    github: () => window.open("https://github.com/JeffryQuispe"),
     email: () => window.open("mailto:Jeffry2001q@gmail.com"),
     linkedin: () => window.open("https://www.linkedin.com/in/jeffry-quispe/", "_blank")
   };
