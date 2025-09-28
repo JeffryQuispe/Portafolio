@@ -1,11 +1,86 @@
-><!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeffry</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Jeffry Quispe Morán</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <H1>PROXIMAMENTE</H1>
+  <div class="cv-container">
+
+    <!-- Hero -->
+    <header class="cv-header fade-in">
+      <button id="toggleTheme" class="toggle-theme">🌙 Oscuro</button>
+      <h1 class="name">JEFFRY QUISPE MORÁN</h1>
+      <p class="title">Programador Junior · Desarrollador Web · Analista de Datos</p>
+
+      <!-- Contact Icons -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="icon-glass"><i class="fas fa-map-marker-alt" data-action="location"></i></div>
+          <span class="tooltip">Rosario, Santa Fe</span>
+        </div>
+        <div class="contact-item">
+          <div class="icon-glass"><i class="fas fa-phone" data-action="phone"></i></div>
+          <span class="tooltip">+54 9 341 2420807</span>
+        </div>
+        <div class="contact-item">
+          <div class="icon-glass"><i class="fas fa-envelope" data-action="email"></i></div>
+          <span class="tooltip">Jeffry2001q@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <div class="icon-glass"><i class="fab fa-linkedin-in" data-action="linkedin"></i></div>
+          <span class="tooltip">LinkedIn</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Perfil Profesional Mejorado -->
+    <section class="cv-section card slide-up delay1">
+      <h2 class="section-title">Perfil Profesional</h2>
+      <p>
+        Soy estudiante avanzado de la Tecnicatura Universitaria en Programación (UTN San Nicolás), con sólida formación en Data Analytics y Python Avanzado. Me especializo en el desarrollo web moderno, análisis de datos y automatización de procesos. <br><br>
+        Destaco por mi capacidad para resolver problemas, aprender de manera continua y adaptarme a nuevos desafíos tecnológicos. Tengo experiencia trabajando en equipos multidisciplinarios, aplicando buenas prácticas y metodologías ágiles.<br><br>
+        Mi objetivo profesional es aportar valor a proyectos innovadores, combinando creatividad, lógica y responsabilidad para lograr resultados de calidad.
+      </p>
+      <ul class="skills-list">
+        <li><i class="fas fa-code"></i> HTML, CSS, JavaScript, SQL</li>
+        <li><i class="fas fa-database"></i> Análisis y visualización de datos</li>
+        <li><i class="fas fa-robot"></i> Automatización con Python</li>
+        <li><i class="fas fa-users"></i> Trabajo en equipo y comunicación</li>
+        <li><i class="fas fa-lightbulb"></i> Resolución de problemas y aprendizaje continuo</li>
+      </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="cv-section card slide-up delay2">
+      <h2 class="section-title">Experiencia / Proyectos</h2>
+      <ul>
+        <li>
+          <b>Gestor de Horarios</b> – Aplicación web responsive con login, registro de entradas/salidas y calendario interactivo. Desarrollada en JavaScript y SQL, enfocada en la gestión eficiente del tiempo.
+        </li>
+        <li>
+          <b>Proyecto Integrador UTN</b> – Desarrollo colaborativo de una aplicación con backend en SQL, aplicando buenas prácticas de programación y metodologías ágiles.
+        </li>
+        <li>
+          <b>Automatización de Reportes</b> – Scripts en Python para la generación automática de informes y análisis de datos, optimizando procesos administrativos.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Educación -->
+    <section class="cv-section card slide-up delay3">
+      <h2 class="section-title">Educación</h2>
+      <ul>
+        <li><b>Tecnicatura Universitaria en Programación</b> – UTN San Nicolás <span class="edu-status">(En curso)</span></li>
+        <li><b>Data Analytics</b> – CoderHouse <span class="edu-status">(2025)</span></li>
+        <li><b>Python Avanzado</b> – EducaciónIT <span class="edu-status">(2025)</span></li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
